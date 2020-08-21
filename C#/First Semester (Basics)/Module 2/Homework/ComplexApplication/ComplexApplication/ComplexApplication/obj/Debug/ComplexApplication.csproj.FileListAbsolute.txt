@@ -1,0 +1,7 @@
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\obj\Debug\ComplexApplication.csprojAssemblyReference.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\obj\Debug\ComplexApplication.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\bin\Debug\ComplexApplication.exe.config
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\bin\Debug\ComplexApplication.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\bin\Debug\ComplexApplication.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\obj\Debug\ComplexApplication.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ComplexApplication\ComplexApplication\obj\Debug\ComplexApplication.pdb

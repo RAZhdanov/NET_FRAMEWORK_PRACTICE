@@ -1,0 +1,48 @@
+﻿<Window x:Class="ImageBrush.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Демонстрация ImageBrush" Height="690" Width="338">
+    <StackPanel>
+
+        <Button Height="200"
+                Margin="1"
+                Content="И это кнопка" 
+                Foreground="Orange"
+                FontSize="32"
+                FontWeight="Bold"
+                VerticalContentAlignment="Bottom">
+            <Button.Background>
+                <ImageBrush ImageSource="Hydrangeas.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+
+        <Ellipse Height="200"
+                 Width="200"
+                 Margin="1">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="Hydrangeas.jpg" 
+                            ViewportUnits="Absolute" Viewport="0,0, 100,100"
+                            TileMode="Tile"/>
+            </Ellipse.Fill>
+        </Ellipse>
+
+        <Rectangle Height="200"
+                 Width="300"
+                 Margin="1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Hydrangeas.jpg" 
+                            ViewportUnits="Absolute" Viewport="0,0, 100,100"
+                            TileMode="FlipXY"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <TextBlock Text="Пример Foreground"
+                   FontSize="32"
+                   FontWeight="ExtraBold">
+            <TextBlock.Foreground>
+                <ImageBrush ImageSource="Hydrangeas.jpg" Stretch="UniformToFill"/>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+    </StackPanel>
+</Window>

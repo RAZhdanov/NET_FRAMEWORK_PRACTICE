@@ -1,0 +1,7 @@
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\bin\Debug\DictionaryProject.exe.config
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\bin\Debug\DictionaryProject.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\bin\Debug\DictionaryProject.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\obj\Debug\DictionaryProject.csprojAssemblyReference.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\obj\Debug\DictionaryProject.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\obj\Debug\DictionaryProject.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\DictionaryProject\DictionaryProject\obj\Debug\DictionaryProject.pdb

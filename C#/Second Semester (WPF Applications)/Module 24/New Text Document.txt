@@ -1,0 +1,1 @@
+Для контроля HTTP/HTTPS трафика удобно использовать Fiddler: http://www.telerik.com/fiddler/web-traffic-recording

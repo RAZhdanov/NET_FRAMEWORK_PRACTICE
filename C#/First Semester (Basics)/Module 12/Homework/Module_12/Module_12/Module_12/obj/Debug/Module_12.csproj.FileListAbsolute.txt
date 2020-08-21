@@ -1,0 +1,8 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\bin\Debug\Module_12.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\bin\Debug\Module_12.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\bin\Debug\Module_12.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\obj\Debug\Module_12.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\obj\Debug\Module_12.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\obj\Debug\Module_12.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\obj\Debug\Module_12.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\Module_12\obj\Debug\Module_12.csproj.CopyComplete

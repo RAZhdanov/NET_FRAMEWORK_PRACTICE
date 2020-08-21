@@ -1,0 +1,47 @@
+﻿<Window x:Class="VisualBrush.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="404" Width="295">
+    <Grid>
+        <!-- Показ Video -->
+        <MediaElement Name="mediaElement" 
+                      Source="Bear.wmv"
+                      Height="150" 
+                      Width="200"
+                      Margin="50,30,0,0"
+                      VerticalAlignment="Top"
+                      HorizontalAlignment="Left"/>
+
+        <!-- Элемент закрашеный VisualBrush -->
+        <Rectangle Width="200"
+                   Height="150" 
+                   Margin="30,185,0,0" 
+                   VerticalAlignment="Top" 
+                   HorizontalAlignment="Left"
+                   RenderTransformOrigin="0.5,0.5">
+            
+            <!-- Задание VisualBrush -->
+            <Rectangle.Fill>
+                <VisualBrush Visual="{Binding ElementName=mediaElement}"/>
+            </Rectangle.Fill>
+            
+            <!-- Преобразования -->
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform AngleX="-15"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+
+            <!-- Маска прозрачности -->
+            <Rectangle.OpacityMask>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#00000000" Offset="0"/>
+                    <GradientStop Color="#C0000000" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.OpacityMask>
+            
+        </Rectangle>
+
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\bin\Debug\StackProject.exe.config
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\bin\Debug\StackProject.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\bin\Debug\StackProject.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\obj\Debug\StackProject.csprojAssemblyReference.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\obj\Debug\StackProject.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\obj\Debug\StackProject.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\StackProject\StackProject\obj\Debug\StackProject.pdb

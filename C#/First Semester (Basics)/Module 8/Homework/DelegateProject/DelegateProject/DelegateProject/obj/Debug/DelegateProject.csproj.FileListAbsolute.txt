@@ -1,0 +1,7 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\bin\Debug\DelegateProject.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\bin\Debug\DelegateProject.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\bin\Debug\DelegateProject.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\obj\Debug\DelegateProject.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\obj\Debug\DelegateProject.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\obj\Debug\DelegateProject.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\DelegateProject\DelegateProject\obj\Debug\DelegateProject.pdb

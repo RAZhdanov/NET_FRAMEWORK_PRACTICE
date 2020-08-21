@@ -1,0 +1,30 @@
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\MainWindow.g.cs
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\App.g.cs
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor_MarkupCompile.cache
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor_MarkupCompile.lref
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\bin\Debug\SQLDataEditor.exe.config
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\bin\Debug\SQLDataEditor.exe
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\bin\Debug\SQLDataEditor.pdb
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\MainWindow.baml
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.g.resources
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.Properties.Resources.resources
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.csproj.GenerateResource.cache
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.csproj.CoreCompileInputs.cache
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.exe
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.pdb
+D:\RKT\C#\Projects\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.csprojAssemblyReference.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\bin\Debug\SQLDataEditor.exe.config
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\bin\Debug\SQLDataEditor.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\bin\Debug\SQLDataEditor.pdb
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.csprojAssemblyReference.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\MainWindow.g.cs
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\App.g.cs
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor_MarkupCompile.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor_MarkupCompile.lref
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\MainWindow.baml
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.g.resources
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.Properties.Resources.resources
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.csproj.GenerateResource.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.csproj.CoreCompileInputs.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 21 текущая\Homework\SQLDataEditor\SQLDataEditor\SQLDataEditor\SQLDataEditor\obj\Debug\SQLDataEditor.pdb

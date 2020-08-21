@@ -1,0 +1,374 @@
+﻿<Application x:Class="Module20.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Module20">
+    <Application.Resources>
+        <ControlTemplate x:Key="SpecificButtonTemplate" TargetType="{x:Type Button}">
+            <Grid>
+                <Border x:Name="thisborder" CornerRadius="10" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"/>
+                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="{TemplateBinding Padding}"/>
+            </Grid>
+
+
+            <ControlTemplate.Triggers>
+
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" TargetName="thisborder">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Offset="0.3" Color="LightGray"/>
+                                <GradientStop Offset="1" Color="DarkGray"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="True">
+                    <Setter Property="Background" TargetName="thisborder">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Offset="0.3" Color="LightGreen"/>
+                                <GradientStop Offset="1" Color="DarkGreen"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+                <!--Begin of Trigger Property "IsMouseOver"-->
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="thisborder">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Offset="0.3" Color="LightBlue"/>
+                                <GradientStop Offset="1" Color="DarkBlue"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="BorderBrush" TargetName="thisborder">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                                <GradientStop Offset="0.3" Color="LightBlue"/>
+                                <GradientStop Offset="1" Color="DarkBlue"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+                <!--End of Trigger Property "IsMouseOver"-->
+
+                <!--Begin of Trigger Property "IsPressed"-->
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" TargetName="thisborder">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Offset="0.3" Color="LightGray"/>
+                                <GradientStop Offset="1" Color="DarkGray"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="BorderBrush" TargetName="thisborder">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                                <GradientStop Offset="0.3" Color="LightGray"/>
+                                <GradientStop Offset="1" Color="DarkGray"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+                <!--End of Trigger Property "IsPressed"-->
+
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <Style x:Key="ButtonFocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+            <GradientStop Color="#F3F3F3" Offset="0"/>
+            <GradientStop Color="#EBEBEB" Offset="0.5"/>
+            <GradientStop Color="#DDDDDD" Offset="0.5"/>
+            <GradientStop Color="#CDCDCD" Offset="1"/>
+        </LinearGradientBrush>
+        <SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070"/>
+        <Style x:Key="ToggleButtonStyle1" TargetType="{x:Type ToggleButton}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <StackPanel Orientation="Horizontal">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <Border x:Name="on" Width="25" Height="25" Background="LightGray" CornerRadius="2,0,0,4" Margin="10,0,0,0">
+                                <TextBlock x:Name="onText" Text="On" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <Border x:Name="off" Width="25" Height="25" Background="LightGray" CornerRadius="0,2,4,0">
+                                <TextBlock x:Name="offText" Text="Off" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground" Value="#ADADAD"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter TargetName="on" Property="Background" Value="LightBlue"/>
+                                <Setter TargetName="onText" Property="Foreground" Value="White"/>
+                                 
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter TargetName="off" Property="Background" Value="LightBlue"/>
+                                <Setter TargetName="offText" Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <DataTemplate x:Key="MediaView" DataType="this:CMediaViewModel">
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <!--Row0 Menu-->
+                    <RowDefinition Height="*"></RowDefinition>
+                    <!--Row1 General Area-->
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <!--Row2 Auxiluary Area1-->
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <!--Row3 Slider Area-->
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <!--Row4 Area of number of buttons-->
+                </Grid.RowDefinitions>
+
+                <!--Begin of Menu part-->
+                <Menu Name="Menu" Grid.Row="0">
+                    <!--Row0-->
+                    <MenuItem Header="_File">
+                        <MenuItem Header="_Open File" Command="{Binding Path=OpenFileCommand}"/>
+                        <Separator />
+                        <MenuItem Header="Exit" Command="{Binding Path=ExitApplicationCommand}"/>
+                    </MenuItem>
+                    <MenuItem Header="_Actions">
+                        <MenuItem Header="_Play" Command="{Binding Path=PlayMediaCommand}"/>
+                        <MenuItem Header="P_ause" Command="{Binding Path=PauseMediaCommand}"/>
+                        <MenuItem Header="_Stop" Command="{Binding Path=StopMediaCommand}"/>
+                        <MenuItem Header="Loop mediafile" Command="{Binding Path=RepeatSoundTrackCommand}"/>
+                    </MenuItem>
+                    <MenuItem Header="_Edit">
+                        <MenuItem Header="Roll forward up to...">
+                            <MenuItem Header="5 sec"/>
+                            <MenuItem Header="10 sec"/>
+                            <MenuItem Header="15 sec"/>
+                            <MenuItem Header="20 sec"/>
+                            <MenuItem Header="25 sec"/>
+                        </MenuItem>
+                        <MenuItem Header="Roll backward up to...">
+                            <MenuItem Header="5 sec"/>
+                            <MenuItem Header="10 sec"/>
+                            <MenuItem Header="15 sec"/>
+                            <MenuItem Header="20 sec"/>
+                            <MenuItem Header="25 sec"/>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Theme">
+                        <MenuItem Header="Balls"/>
+                    </MenuItem>
+                </Menu>
+                <!--End of Menu part-->
+
+                <!--Begin of Cental area part-->
+                <!-- { -->
+                <Grid Name="GridRow1" Grid.Row="1" Background="Black">
+                    <!--Row1-->
+                    <MediaElement Name="myMediaElement" >
+                        <MediaElement.Triggers>
+                            <EventTrigger RoutedEvent="MediaElement.Loaded">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+
+                                             <!--The MediaTimeline has a RepeatBehavior="Forever" which makes the media play over and over indefinitely.-->
+                                            <MediaTimeline Source="E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\Bear.wmv" Storyboard.TargetName="myMediaElement" RepeatBehavior="Forever" />
+
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                        </MediaElement.Triggers>
+                    </MediaElement>
+                </Grid>
+                <!-- } -->
+                <!--End of Central area part-->
+
+                <!--Begin of bottom1 part-->
+                <Grid Name="GridRow2" Grid.Row="2" Height="80px" Background="#515151">
+                    <!--Row2 Auxiluary Area1-->
+                    <!--таймер, бегущая строка названия файла, формат, количество kbps, количество khz-->
+
+                    <!--Define the number of columns-->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <!--Column0 Current time / Overall time (HH:MM:SS)-->
+                        <ColumnDefinition Width="Auto"/>
+                        <!--Column1 Number of file/Name of File/Format/kbps/khz-->
+                        <ColumnDefinition Width="Auto"/>
+                        <!--Column2 Histogramm-->
+                    </Grid.ColumnDefinitions>
+
+
+                    <!--Column0 Current time / Overall time (HH:MM:SS)-->
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <!--Row0 Current time (HH:MM:SS)-->
+                            <RowDefinition Height="*"/>
+                            <!--Row1 Overall time (HH:MM:SS)-->
+                        </Grid.RowDefinitions>
+
+                        <!--Do something-->
+                        <TextBlock Name="CurrentTime" Grid.Row="0" Text="{Binding CurrentTimeOfMediaFile, Mode=OneWay}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"></TextBlock>
+                        <TextBlock Name="OverallTime" Grid.Row="1" Text="{Binding OverallTimeOfMediaFile, Mode=OneWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+
+                    </Grid>
+
+
+                    <!--Column1 Number of file/Name of File/Format/kbps/khz-->
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <!--Row0 Number of file/Name of File-->
+                            <RowDefinition Height="*"/>
+                            <!--Row1 Format/kbps/khz-->
+                        </Grid.RowDefinitions>
+
+                        <!--Do something-->
+                        <Grid Grid.Row="0">
+                            <!--Row0 Number of file/Name of File-->
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <!--Column0 Number of file-->
+                                <ColumnDefinition Width="Auto"/>
+                                <!--Column1 Name of File-->
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Margin="5" Name="NumberOfPlayingFile" Grid.Column="0" Text="[2/15]" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Margin="5" Name="FileName" Grid.Column="1" Text="FileName.extention" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <!--Column0 Format-->
+                                <ColumnDefinition Width="Auto"/>
+                                <!--Column1 kbps-->
+                                <ColumnDefinition Width="Auto"/>
+                                <!--Column2 khz-->
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Margin="5" Name="Format" Grid.Column="0" Text="WAV" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Margin="5" Name="Kbps" Grid.Column="1" Text="384kbps" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Margin="5" Name="khz" Grid.Column="2" Text="24khz" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+
+                        </Grid>
+
+
+                    </Grid>
+
+
+
+                    <!--Column2 Histogramm-->
+                    <Grid Grid.Column="2">
+
+                    </Grid>
+
+                </Grid>
+                <!--End of bottom1 part-->
+
+                <Grid Name="GridRow3" Grid.Row="3" Background="#303030">
+                    <!--Row3 Slider Area-->
+                    <!--Define the number of columns-->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <!--Column0 Soundtrack-->
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <!--Column1 Sound controller-->
+                    </Grid.ColumnDefinitions>
+
+                    <Slider Name="timelineSlider" Grid.Column="0"></Slider>
+
+                    <Grid Grid.Column="1">
+                        <!--Column1 Sound controller-->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <!--Column0 switch on/off sound button-->
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <!--Column1 Sound controller-->
+                        </Grid.ColumnDefinitions>
+
+                        <Button Grid.Column="0" Height="15" Width="15">
+                            <Image Source="Resources/baseline_volume_up_black_18dp.png" Stretch="Uniform">
+                                
+                            </Image>
+                        </Button>
+                        <Slider Grid.Column="1" Name="SoundController" MinWidth="100"></Slider>
+                    </Grid>
+                    <!--End of Column1 Sound controller-->
+
+                </Grid>
+                <!-- End of Row3 Slider Area-->
+
+
+
+                <!--Begin of bottom2 part-->
+                <VirtualizingStackPanel Grid.Row="4" Height="40" Background="#303030" Orientation="Horizontal">
+
+
+                    <Button Width="40" Height="40" Template="{StaticResource SpecificButtonTemplate}" Command="{Binding Path=PlayMediaCommand}">
+                        <Polygon Stroke="Black" Width="20" Height="20" Points="7,15 7,5 15,10"></Polygon>
+                    </Button>
+                    <Button Width="40" Height="40" Template="{StaticResource SpecificButtonTemplate}" Command="{Binding Path=PauseMediaCommand}">
+                        <Rectangle  Stroke="Black" Width="10" Height="10"></Rectangle>
+                    </Button>
+                    <Button Width="40" Height="40" Template="{StaticResource SpecificButtonTemplate}" Command="{Binding Path=StopMediaCommand}">
+                        <Rectangle  Stroke="Black" Width="10" Height="10"></Rectangle>
+                    </Button>
+                    <Button Width="40" Height="40" Template="{StaticResource SpecificButtonTemplate}">
+                        <Rectangle  Stroke="Black" Width="10" Height="10"></Rectangle>
+                    </Button>
+                    <Button Width="40" Height="40" Template="{StaticResource SpecificButtonTemplate}">
+                        <Rectangle  Stroke="Black" Width="10" Height="10"></Rectangle>
+                    </Button>
+                </VirtualizingStackPanel>
+                <!--End of bottom2 part-->
+
+
+                <!--<ToolBar >
+            
+            <RadioButton Name="shape_Ellipse" Height="30" Width="30" HorizontalAlignment="Left" Margin="315,194,0,195" d:LayoutOverrides="Width" Checked="shape_Ellipse_Checked">
+                <Polygon Stroke="Black" Width="20" Height="20" Points="0,0 20,10 0,20"></Polygon>
+            </RadioButton>
+            <RadioButton Name="shape_Ellipse1" Height="30" Width="30" Margin="390,194,372,195">
+                <Polygon Stroke="Black" Width="20" Height="20" Points="0,0 20,10 0,20"></Polygon>
+            </RadioButton>
+
+        </ToolBar >-->
+            </Grid>
+        </DataTemplate>
+        
+        
+        
+        
+        
+        
+    </Application.Resources>
+</Application>

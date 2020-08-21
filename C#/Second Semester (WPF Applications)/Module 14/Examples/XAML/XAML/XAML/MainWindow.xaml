@@ -1,0 +1,52 @@
+﻿<Window x:Class="XAML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:XAML"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!-- Элемент-свойство -->
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStopCollection>
+                    <GradientStop Offset="0" Color="Orange"/>
+                    <GradientStop Offset="0.5" Color="Yellow"/>
+                    <GradientStop Offset="1" Color="Coral"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!-- Элемент-свойство -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Grid.Row прикрепленное свойства -->
+        <ComboBox Grid.Row="0"
+                  Height="23" Width="120"
+                  HorizontalAlignment="Left" 
+                  VerticalAlignment="Top"
+                  Margin="5">
+            <!-- Использование класса из дополнительного пространства имен -->
+            <sys:Int32>2</sys:Int32>
+            <sys:Int32>3</sys:Int32>
+            <sys:Int32>5</sys:Int32>
+            <sys:Int32>7</sys:Int32>
+        </ComboBox>
+        <ListBox Grid.Row="1" Background="{x:Null}">
+            <!-- Вложенные элементы - произвольные типы -->
+            <!-- Но наследники от UIElement отображаются как есть, а у остальных просто для отображения вызывается метод ToString() -->
+            <local:Complex Re="27" Im="78"/>
+            <CheckBox Content="Red"/>
+            <CheckBox>Green</CheckBox>
+            <CheckBox>Blue</CheckBox>
+            <local:Complex Re="5" Im="4"/>
+        </ListBox>
+        <!-- Атрибут Click задает подписку на событие Click. Указывает на метод, который будет вызван при генерации события Click кнопкой -->
+        <Button Grid.Row="0" 
+                Height="23" Width="75"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                Margin="0,0,12,12" 
+                Content="Exit" 
+                Click="Button_Click" />
+    </Grid>
+</Window>

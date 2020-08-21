@@ -1,0 +1,7 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\bin\Debug\Task9.2.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\bin\Debug\Task9.2.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\bin\Debug\Task9.2.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\obj\Debug\Task9.2.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\obj\Debug\Task9.2.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\obj\Debug\Task9.2.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Task9.2\Task9.2\obj\Debug\Task9.2.pdb

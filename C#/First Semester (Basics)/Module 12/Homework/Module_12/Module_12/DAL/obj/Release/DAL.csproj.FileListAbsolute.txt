@@ -1,0 +1,7 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\bin\Release\Names.txt
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\bin\Release\DAL.dll
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\bin\Release\DAL.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\obj\Release\DAL.dll
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_12\DAL\obj\Release\DAL.pdb

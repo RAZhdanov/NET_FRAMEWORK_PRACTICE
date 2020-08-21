@@ -1,0 +1,14 @@
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\bin\Debug\Client.exe.config
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\bin\Debug\Client.exe
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\bin\Debug\Client.pdb
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\obj\Debug\Client.csprojAssemblyReference.cache
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\obj\Debug\Client.exe
+D:\RKT\C#\Projects\ComplexNumberCalculator\Client\obj\Debug\Client.pdb
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\bin\Debug\Client.exe.config
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\bin\Debug\Client.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\bin\Debug\Client.pdb
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\obj\Debug\Client.csprojAssemblyReference.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\obj\Debug\Client.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 25\Homework\ComplexNumberCalculator\ComplexNumberCalculator\Client\obj\Debug\Client.pdb

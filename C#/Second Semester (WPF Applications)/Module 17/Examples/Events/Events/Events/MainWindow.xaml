@@ -1,0 +1,60 @@
+﻿<Window x:Class="Events.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Events in WPF" Height="350" Width="525"
+        MouseDown="SomeOne_MouseDown"
+        PreviewMouseDown="SomeOne_MouseDown">
+    
+    <!-- Программа демонстрации событий в WPF
+         В XAML очень много подписчиков на события. Они могут затруднить понимание работы событий
+         Комментируйте (или удаляйте) лишние подписки на события для лучшего анализа и понимания событий в WPF -->
+    
+    <Grid MouseDown="SomeOne_MouseDown"
+          PreviewMouseDown="SomeOne_MouseDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Margin="5"
+               BorderThickness="1"
+               BorderBrush="Black"
+               HorizontalAlignment="Left"
+               MouseDown="SomeOne_MouseDown"
+               PreviewMouseDown="SomeOne_MouseDown">
+            <StackPanel MouseDown="SomeOne_MouseDown">
+                <TextBlock Text="Кликни на картинку"
+                           MouseDown="SomeOne_MouseDown"/>
+                <Image Source="/Events;component/Images/Chrysanthemum.jpg"
+                       Stretch="Uniform"
+                       Width="120" 
+                       MouseDown="SomeOne_MouseDown" PreviewMouseDown="SomeOne_MouseDown"/>
+            </StackPanel>
+        </Label>
+        
+        <ListBox Grid.Row="1"
+                 Margin="5"
+                 Name="lb"/>
+        
+        <CheckBox Grid.Row="2"
+                  IsChecked="False" 
+                  Margin="5,3"
+                  Name="cb"
+                  Content="Handle"/>
+        
+        <StackPanel Grid.Row="3" ButtonBase.Click="StackPanel_Click"
+                    Orientation="Horizontal"
+                    FlowDirection="RightToLeft">
+            <Button Margin="5" 
+                    Padding="2,3"
+                    Content="Выход" 
+                    Click="Button_Click" />
+            <Button Margin="5"
+                    Padding="2,3"
+                    Click="Button_Click_1">Очистить</Button>
+        </StackPanel>
+               
+    </Grid>
+</Window>

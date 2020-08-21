@@ -1,0 +1,5 @@
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\MatrixMultiplication\6. MatrixMultiplication\MatrixMultiplication\bin\Release\MatrixMultiplication.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\MatrixMultiplication\6. MatrixMultiplication\MatrixMultiplication\bin\Release\MatrixMultiplication.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\MatrixMultiplication\6. MatrixMultiplication\MatrixMultiplication\obj\x86\Release\MatrixMultiplication.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\MatrixMultiplication\6. MatrixMultiplication\MatrixMultiplication\obj\x86\Release\MatrixMultiplication.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\MatrixMultiplication\6. MatrixMultiplication\MatrixMultiplication\obj\x86\Release\MatrixMultiplication.pdb

@@ -1,0 +1,6 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\DelegateProject\bin\Release\DelegateProject.dll.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\DelegateProject\bin\Release\DelegateProject.dll
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\DelegateProject\bin\Release\DelegateProject.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\DelegateProject\obj\Release\DelegateProject.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\DelegateProject\obj\Release\DelegateProject.dll
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\DelegateProject\obj\Release\DelegateProject.pdb

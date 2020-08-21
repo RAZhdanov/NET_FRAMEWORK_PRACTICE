@@ -1,0 +1,59 @@
+﻿<Window x:Class="LinearGradientBrush.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Демонстрация LinearGradientBrush" Height="450" Width="220">
+    <StackPanel>
+
+        <Button Height="100"
+                Margin="1"
+                Content="Кнопочка">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop  Color="Red" Offset="0"/>
+                    <GradientStop  Color="Green" Offset="0.5"/>
+                    <GradientStop  Color="Violet" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Height="100"
+                Margin="1"
+                Content="Радуга">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop  Color="Red" Offset="0"/>
+                    <GradientStop  Color="Orange" Offset="0.16"/>
+                    <GradientStop  Color="Yellow" Offset="0.33"/>
+                    <GradientStop  Color="Green" Offset="0.5"/>
+                    <GradientStop  Color="LightBlue" Offset="0.66"/>
+                    <GradientStop  Color="Blue" Offset="0.78"/>
+                    <GradientStop  Color="Violet" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        
+        <Button Height="100"
+                Margin="1"
+                Content="Еще Кнопочка">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop  Color="Yellow" Offset="0"/>
+                    <GradientStop  Color="Orange" Offset="0.5"/>
+                    <GradientStop  Color="Yellow" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Height="100"
+                Margin="1"
+                Content="Ну, и еще Кнопочка">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0.7" EndPoint="1,0">
+                    <GradientStop  Color="Yellow" Offset="0"/>
+                    <GradientStop  Color="Orange" Offset="0.7"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </StackPanel>
+</Window>

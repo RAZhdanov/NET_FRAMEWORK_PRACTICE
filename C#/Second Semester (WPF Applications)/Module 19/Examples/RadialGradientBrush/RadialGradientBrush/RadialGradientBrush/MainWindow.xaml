@@ -1,0 +1,18 @@
+﻿<Window x:Class="RadialGradientBrush.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Демонстрация RadialGradientBrush" Height="350" Width="525">
+    <Grid>
+        <Ellipse Height="200" Width="200">
+            <Ellipse.Fill>
+                <RadialGradientBrush GradientOrigin="0.7, 0.3" RadiusX="1" RadiusY="1" >
+                    <GradientStopCollection>
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </GradientStopCollection>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+    </Grid>
+</Window>

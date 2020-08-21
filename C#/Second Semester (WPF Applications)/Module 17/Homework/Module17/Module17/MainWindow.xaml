@@ -1,0 +1,132 @@
+﻿<Window x:Class="Module17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module17"
+        xmlns:converters="clr-namespace:Module17.Views.Converters"
+        mc:Ignorable="d"
+        Title="Библиотека" Height="450" Width="800" FontSize="20" Name="window123">
+
+
+    <Window.Resources>
+        <converters:InvertionOfVisibilityConverter x:Key="invertionOfVisibilityConverter"/>
+        <converters:ListBoxStringItemToItsVisibilityConverter x:Key="listBoxStringItemToItsVisibilityConverter"/>
+        <converters:ListBoxStringItemToVisibilityReversedConverter x:Key="listBoxStringItemToVisibilityReversedConverter"/>
+        <converters:YearOfProductionToGoodsCategoryConverter x:Key="yearOfProductionToGoodsCategoryConverter"/>
+        <converters:YearOfProductionToBrushConverter x:Key="yearOfProductionToBrushConverter"/>
+        <converters:YearOfProductionToVisibilityConverter x:Key="yearOfProductionToVisibilityConverter"/>
+        <converters:BoolToVisibilityConverter x:Key="boolToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.ColumnSpan="2">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Открыть..." Command="{Binding Path=OpenCommand}"></MenuItem>
+                <MenuItem Header="Сохранить" Command="{Binding Path=SaveCommand}"></MenuItem>
+                <MenuItem Header="Сохранить как..." Command="{Binding Path=SaveAsCommand}"/>
+                <Separator/>
+                <MenuItem Header="Выйти" Command="{Binding Path=ExitCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Правка">
+                <MenuItem Header="Добавить книгу" Command="{Binding Path=AddBookCommand}"></MenuItem>
+                <MenuItem Header="Удалить книгу" Command="{Binding Path=DeleteBookCommand}"/>
+                <Separator/>
+                <MenuItem Header="Добавить автора" Command="{Binding Path=AddAuthorCommand}"></MenuItem>
+                <MenuItem Header="Удалить автора" Command="{Binding Path=DeleteAuthorCommand}"/>
+            </MenuItem>
+        </Menu>
+
+
+        <!-- Left side -->
+        
+        <ListBox Margin="5" Grid.Row="1" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <TextBlock Name="NameOfListBox" Text="{Binding Title}" Visibility="{Binding Path=Title, Converter={StaticResource listBoxStringItemToItsVisibilityConverter}}"></TextBlock>
+                        <TextBlock FontStyle="Italic"  Text="&lt;без названия&gt;" Visibility="{Binding ElementName=NameOfListBox, Path=Visibility, Converter={StaticResource invertionOfVisibilityConverter}}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- Right side -->
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label Margin="5" Grid.Row="0" Content="Название" VerticalAlignment="Center"/>
+            <Label Margin="5" Grid.Row="1" Content="Авторы" VerticalAlignment="Center"/>
+            <Label Margin="5" Grid.Row="2" Content="Год издания" VerticalAlignment="Center"/>
+            
+            <!--Заголовок-->
+            <TextBox Margin="5" Grid.Row="0" Grid.Column="1" Text="{Binding Path=SelectedBook.Title, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <!--Авторы-->
+            <ListBox Name="authors" HorizontalContentAlignment="Stretch" Margin="5" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Authors}" SelectedItem="{Binding SelectedAuthor}">
+                <ListBox.Style>
+                    <Style>
+                        <Style.Resources>
+                            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Transparent"/>
+                            <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="Transparent"/>
+                        </Style.Resources>
+                    </Style>
+                </ListBox.Style>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <TextBlock Margin="6" Text="{Binding ElementName=authorBox, Path=Text}" />
+                            <TextBlock Margin="6" FontStyle="Italic" Text="&lt;без имени&gt;" Visibility="{Binding Path=AuthorName, Converter={StaticResource listBoxStringItemToVisibilityReversedConverter}}"/>
+                            <TextBox Margin="1,2" Text="{Binding Path=AuthorName, UpdateSourceTrigger=PropertyChanged}" Name="authorBox" Visibility="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListBoxItem }, Path=IsSelected, Converter={StaticResource boolToVisibilityConverter}}">
+                            </TextBox>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <!--Год издания-->
+            <StackPanel Margin="5" Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+                <TextBox Width="50" Text="{Binding Path=Year_Of_Production, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Visibility="{Binding Year_Of_Production, Converter={StaticResource yearOfProductionToVisibilityConverter} }"   Content="{Binding Year_Of_Production, Converter={StaticResource yearOfProductionToGoodsCategoryConverter}}" Foreground="{Binding Year_Of_Production, Converter={StaticResource yearOfProductionToBrushConverter}}"></Label>
+            </StackPanel>
+        </Grid>
+        
+        <!--Buttons-->
+        <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Margin="5" Content="Добавить книгу" Command="{Binding Path=AddBookCommand}"/>
+            <Button Margin="5" Content="Удалить книгу" Command="{Binding Path=DeleteBookCommand}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Margin="5" Content="Добавить автора" Command="{Binding Path=AddAuthorCommand}"/>
+            <Button Margin="5" Content="Удалить автора" Command="{Binding Path=DeleteAuthorCommand}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Margin="5" Content="Загрузить" Command="{Binding Path=LoadCommand}"></Button>
+            <Button Margin="5" Content="Сохранить" Command="{Binding Path=SaveCommand}"></Button>
+            <Button Margin="5" Content="Выйти" Command="{Binding Path=ExitCommand}"></Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

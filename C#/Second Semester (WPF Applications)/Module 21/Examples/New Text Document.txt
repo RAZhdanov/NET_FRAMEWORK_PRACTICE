@@ -1,0 +1,3 @@
+База данных Northwind: https://www.microsoft.com/en-US/download/details.aspx?id=23654
+
+или урезанный SQL скрипт Install_Northwind.zip

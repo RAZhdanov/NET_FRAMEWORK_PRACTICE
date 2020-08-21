@@ -1,0 +1,23 @@
+﻿<Window x:Class="ResourceDictionary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Демонстрация ResourceDictionary" Height="350" Width="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="MyDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <ImageBrush x:Key="imBrush" ImageSource="Chrysanthemum.jpg"/>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Background="{StaticResource lgBrush}" Name="grid">
+        <Button Foreground="{StaticResource imBrush}"
+                Background="{StaticResource revlgBrush}"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center" 
+                FontSize="72" 
+                FontWeight="Bold">
+            Hello
+        </Button>
+    </Grid>
+</Window>

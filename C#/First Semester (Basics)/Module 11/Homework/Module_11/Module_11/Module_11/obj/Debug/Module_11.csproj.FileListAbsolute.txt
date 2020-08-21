@@ -1,0 +1,7 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\bin\Debug\Module_11.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\bin\Debug\Module_11.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\bin\Debug\Module_11.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\obj\Debug\Module_11.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\obj\Debug\Module_11.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\obj\Debug\Module_11.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module_11\Module_11\obj\Debug\Module_11.pdb

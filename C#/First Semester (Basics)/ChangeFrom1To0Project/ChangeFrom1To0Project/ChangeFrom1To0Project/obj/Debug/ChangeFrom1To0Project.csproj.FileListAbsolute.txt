@@ -1,0 +1,7 @@
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\bin\Debug\ChangeFrom1To0Project.exe.config
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\bin\Debug\ChangeFrom1To0Project.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\bin\Debug\ChangeFrom1To0Project.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\obj\Debug\ChangeFrom1To0Project.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\obj\Debug\ChangeFrom1To0Project.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\obj\Debug\ChangeFrom1To0Project.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\ChangeFrom1To0Project\ChangeFrom1To0Project\obj\Debug\ChangeFrom1To0Project.csprojAssemblyReference.cache

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>Сборник тестовых заданий для тематического и итогового контроля</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Коноплич Р.В.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Орлов В.А.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Добродеев Н.А.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Татур А.О.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2002</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Физика. Задачи и тестовые задания для вступительных испытаний в МЭИ(ТУ)</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Дедов А.В.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Комов А.Т.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Седов А.Н.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Тимошин М.Г.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2007</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Примерные билеты и ответы по химии для подготовки к устной итоговой аттестации выпускников 9 классов общеобразовательных учреждений</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Корощенко А.С.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2008</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Элементы теории автоматического управления (Часть 2)</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Попов А.К.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2010</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Примерные билеты и ответы по информатике для подготовки к устной итоговой аттестации выпускников 9 классов общеобразовательных учреждений</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Кузнецов А.А.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Угринович Н.Д.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Самовольнова Л.Е.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2005</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Школьная шпаргалка. Математика</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Бекетова О.М.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>1992</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Информатика</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Журавлев В.А.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Карулина В.А.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Письменная Е.В.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2007</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Advanced Turboprop Project</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Hager R.D.</AuthorName>
+      </Author>
+      <Author>
+        <AuthorName>Vrabel D.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>1988</Year_of_production>
+  </Book>
+  <Book>
+    <Title>История английской и американской литературы</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Позднякова Л.Р.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2002</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Английский язык для авиастроителей</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Першина Е.Ю.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2019</Year_of_production>
+  </Book>
+  <Book>
+    <Title>LSP: English of Professional Communication: Английский язык профессионального общения</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Гумовская Г.</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>2008</Year_of_production>
+  </Book>
+  <Book>
+    <Title>Расчёт и проектирование камер сгорания ВРД в САПР</Title>
+    <Authors>
+      <Author>
+        <AuthorName>Ковнер Д.С</AuthorName>
+      </Author>
+    </Authors>
+    <Year_of_production>1989</Year_of_production>
+  </Book>
+</ArrayOfBook>

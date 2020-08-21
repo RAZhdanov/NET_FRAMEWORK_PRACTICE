@@ -1,0 +1,11 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\bin\Release\Module 10_2.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\bin\Release\Module 10_2.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\bin\Release\Module 10_2.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\bin\Release\DelegateProject.dll
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\bin\Release\DelegateProject.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\bin\Release\DelegateProject.dll.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\obj\Release\Module 10_2.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\obj\Release\Module 10_2.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\obj\Release\Module 10_2.csproj.CopyComplete
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\obj\Release\Module 10_2.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_2\Module 10_2\obj\Release\Module 10_2.pdb

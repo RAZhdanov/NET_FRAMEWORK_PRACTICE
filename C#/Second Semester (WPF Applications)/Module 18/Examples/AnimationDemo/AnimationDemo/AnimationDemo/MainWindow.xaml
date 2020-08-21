@@ -1,0 +1,63 @@
+﻿<Window x:Class="AnimationDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Демонстрация Анимации" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="Height" Value="40"/>
+            <Style.Triggers>
+
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Height" 
+                                                 To="100" 
+                                                 Duration="0:0:0.3" 
+                                                 AccelerationRatio="0.2" 
+                                                 DecelerationRatio="0.2"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Height" 
+                                                 To="40" 
+                                                 Duration="0:0:0.3" 
+                                                 AccelerationRatio="0.2" 
+                                                 DecelerationRatio="0.2"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Bottom" 
+                   HorizontalAlignment="Right"
+                   Margin="5"
+                   Text="Использованы фотографии с сайта ">
+                    <Hyperlink NavigateUri="http://www.photoflower.ru" RequestNavigate="Hyperlink_RequestNavigate">www.photoflower.ru</Hyperlink>
+        </TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <Image Source="Photos\746.jpg" Stretch="Uniform" Margin="2" />
+            <Image Source="Photos\747.jpg" Stretch="Uniform" Margin="2"/>
+            <Image Source="Photos\748.jpg" Stretch="Uniform" Margin="2" />
+            <Image Source="Photos\749.jpg" Stretch="Uniform" Margin="2" />
+            <Image Source="Photos\750.jpg" Stretch="Uniform" Margin="2"/>
+            <Image Source="Photos\751.jpg" Stretch="Uniform" Margin="2"/>
+            <Image Source="Photos\753.jpg" Stretch="Uniform" Margin="2"/>
+            <Image Source="Photos\754.jpg" Stretch="Uniform" Margin="2"/>
+            <Image Source="Photos\756.jpg" Stretch="Uniform" Margin="2"/>
+            <Image Source="Photos\757.jpg" Stretch="Uniform" Margin="2"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

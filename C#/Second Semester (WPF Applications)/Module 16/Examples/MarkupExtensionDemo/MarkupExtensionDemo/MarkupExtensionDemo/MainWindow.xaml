@@ -1,0 +1,18 @@
+﻿<Window x:Class="MarkupExtensionDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MarkupExtensionDemo"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <!-- По соглашению Extension можно опускать. Т.е. вместо SumExtension писать просто Sum -->
+        <TextBlock Text="{local:Sum X=10, Y=15}"/>
+        <!-- Полная запись -->
+        <TextBlock>
+            <TextBlock.Text>
+                <local:SumExtension X="3" Y="12"/>
+            </TextBlock.Text>
+        </TextBlock>
+        <!-- Используется конструктор с 1 параметром при создании экземпляра расширения -->
+        <TextBlock Text="{local:Sum 3}"/>
+    </StackPanel>
+</Window>

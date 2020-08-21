@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person FirstName="Мария" LastName="Жданова" Patronymic="Васильевна" PhoneNumber="89192226344" Address="ул.Шахновича" />
+  <Person FirstName="Эдуард" LastName="Пчелкин" Patronymic="Андреевич" PhoneNumber="89162228564" Address="ул. Книповича" />
+  <Person FirstName="Рамзес" LastName="Жданов" Patronymic="Александрович" PhoneNumber="89197298834" Address="ул.Ленина" />
+  <Person FirstName="Андрей" LastName="Сорокин" Patronymic="Сорокович" PhoneNumber="89142328335" Address="ул. Книповича" />
+  <Person FirstName="Мария" LastName="Антуанетова" Patronymic="Антуанетовна" PhoneNumber="89194626344" Address="ул.Шахновича" />
+  <Person FirstName="Лол" LastName="Лолов" Patronymic="Лолович" PhoneNumber="ё1234567" Address="lalalala" />
+</ArrayOfPerson>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Computers>
+  <Computer Name="Chif">
+    <Processor Vendor="Intel" Model="Intel Core I7" Frequency="3" />
+    <Memory Volume="4" />
+    <HDD Volume="1500" />
+    <Mouse>Logitech</Mouse>
+  </Computer>
+  <Computer Name="Workstation">
+    <Processor Vendor="Intel" Model="Intel Core I3" Frequency="2.6" />
+    <Memory Volume="10" />
+    <HDD Volume="1000" />
+    <Mouse>Logitech</Mouse>
+  </Computer>
+  <Computer Name="AMD Workstation">
+    <Processor Vendor="AMD" Model="AMD Ryzen 7" Frequency="3" />
+    <Memory Volume="11" />
+    <HDD Volume="6000" />
+    <Mouse>Microsoft</Mouse>
+  </Computer>
+</Computers>

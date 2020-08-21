@@ -1,0 +1,71 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator - Style Demo" Height="350" Width="525">
+
+    <Grid Name="grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Margin" Value="2"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Background" Value="Black"/>
+                <Setter Property="Foreground" Value="Yellow"/>
+                <Style.Triggers>
+                    <Trigger Property="Button.IsMouseOver" Value="true">
+                        <Setter Property="Button.Foreground" Value="Green"/>
+                    </Trigger>
+                    <Trigger Property="Button.IsFocused" Value="true">
+                        <Setter Property="FontSize" Value="30"/>
+                    </Trigger>
+                    <MultiTrigger>
+                        <MultiTrigger.Conditions>
+                            <Condition Property="IsFocused" Value="True"/>
+                            <Condition Property="IsMouseOver" Value="True"/>
+                        </MultiTrigger.Conditions>
+                        <MultiTrigger.Setters>
+                            <Setter Property="Margin" Value="0"/>
+                            <Setter Property="BorderThickness" Value="5"/>
+                        </MultiTrigger.Setters>
+                    </MultiTrigger>
+                </Style.Triggers>
+            </Style>
+        </Grid.Resources>
+
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" ></TextBox>
+        <Button Grid.Row="1" Grid.Column="0" Content="C" Foreground="Red"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="&lt;--"/>
+        <Button Grid.Row="2" Grid.Column="0" Content="1"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="2"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="3"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="+"/>
+        <Button Grid.Row="3" Grid.Column="0" Content="4"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="5"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="6"/>
+        <Button Grid.Row="3" Grid.Column="3" Content="-"/>
+        <Button Grid.Row="4" Grid.Column="0" Content="7"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="8"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="9"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="*"/>
+        <Button Grid.Row="5" Grid.Column="0" Content="."/>
+        <Button Grid.Row="5" Grid.Column="1" Content="0"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="+/-"/>
+        <Button Grid.Row="5" Grid.Column="3" Content="/"/>
+        <Button Grid.Row="1" Grid.Column="2"  Grid.ColumnSpan="2" Content="=" Background="Brown"/>
+    </Grid>
+</Window>

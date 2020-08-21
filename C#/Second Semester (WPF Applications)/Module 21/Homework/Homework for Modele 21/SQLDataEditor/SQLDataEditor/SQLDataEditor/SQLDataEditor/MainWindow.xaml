@@ -1,0 +1,32 @@
+﻿<Window x:Class="SQLDataEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLDataEditor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <ToolBar>
+        <!--<StackPanel Orientation="Horizontal">-->
+            <Button Margin="5" Name="CancelButton" Content="Отменить" Click="CancelButton_Click"/>
+            <Separator/>
+           
+            <Button Margin="5" Name="DownloadButton" Content="Скачать из базы" Click="DownloadButton_Click"/>
+            <Button Margin="5" Name="UploadButton" Content="Загрузить в базу" Click="UploadButton_Click"/>
+            <!--</StackPanel>-->
+        </ToolBar>
+        <DataGrid Name="dataGrid" Grid.Row="1" AutoGenerateColumns="True" ItemsSource="{Binding Path=Employees}" />
+
+
+    </Grid>
+</Window>

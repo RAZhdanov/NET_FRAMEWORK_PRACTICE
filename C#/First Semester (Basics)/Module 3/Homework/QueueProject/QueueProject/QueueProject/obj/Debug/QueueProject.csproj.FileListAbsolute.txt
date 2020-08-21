@@ -1,0 +1,7 @@
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\bin\Debug\QueueProject.exe.config
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\bin\Debug\QueueProject.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\bin\Debug\QueueProject.pdb
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\obj\Debug\QueueProject.csprojAssemblyReference.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\obj\Debug\QueueProject.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\obj\Debug\QueueProject.exe
+E:\Visual Studio\Projects\University\.NET Framework practice\Homework\QueueProject\QueueProject\obj\Debug\QueueProject.pdb

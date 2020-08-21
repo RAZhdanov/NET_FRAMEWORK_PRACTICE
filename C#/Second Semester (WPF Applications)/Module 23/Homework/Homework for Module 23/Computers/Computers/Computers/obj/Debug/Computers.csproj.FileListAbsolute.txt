@@ -1,0 +1,14 @@
+D:\RKT\C#\Projects\Computers\Computers\bin\Debug\Computers.exe.config
+D:\RKT\C#\Projects\Computers\Computers\bin\Debug\Computers.exe
+D:\RKT\C#\Projects\Computers\Computers\bin\Debug\Computers.pdb
+D:\RKT\C#\Projects\Computers\Computers\obj\Debug\Computers.csprojAssemblyReference.cache
+D:\RKT\C#\Projects\Computers\Computers\obj\Debug\Computers.csproj.CoreCompileInputs.cache
+D:\RKT\C#\Projects\Computers\Computers\obj\Debug\Computers.exe
+D:\RKT\C#\Projects\Computers\Computers\obj\Debug\Computers.pdb
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\bin\Debug\Computers.exe.config
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\bin\Debug\Computers.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\bin\Debug\Computers.pdb
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\obj\Debug\Computers.csprojAssemblyReference.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\obj\Debug\Computers.csproj.CoreCompileInputs.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\obj\Debug\Computers.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 23\Homework\Computers\Computers\Computers\obj\Debug\Computers.pdb

@@ -1,0 +1,93 @@
+﻿<Window x:Class="Geometry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Демонстрация Geometry" Height="319" Width="356">
+    
+    <Grid TextBlock.FontSize="16"
+          TextBlock.FontWeight="Bold">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Union" 
+                   HorizontalAlignment="Center"
+                    Grid.Row="0" Grid.Column="0"/>
+        <Path Fill="Gray" Stroke="Black"
+              Grid.Row="1" Grid.Column="0"
+              Margin="5">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Union">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="50, 50"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="100,50"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+
+        <TextBlock Text="Exclude" 
+                   HorizontalAlignment="Center"
+                    Grid.Row="0" Grid.Column="1"/>
+        <Path Fill="Gray" Stroke="Black"
+              Grid.Row="1" Grid.Column="1"
+              Margin="5">
+
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Exclude">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="50, 50"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="100,50"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+
+        <TextBlock Text="Intersect" 
+                   HorizontalAlignment="Center"
+                    Grid.Row="2" Grid.Column="0"/>
+        <Path Fill="Gray" Stroke="Black"
+              Grid.Row="3" Grid.Column="0"
+              Margin="5">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Intersect">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="50, 50"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="100,50"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+
+        <TextBlock Text="Xor" 
+                   HorizontalAlignment="Center"
+                    Grid.Row="2" Grid.Column="1"/>
+        <Path Fill="Gray" Stroke="Black"
+              Grid.Row="3" Grid.Column="1"
+              Margin="5">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="50, 50"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry RadiusX="50" RadiusY="50" Center="100,50"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+
+    </Grid>
+</Window>

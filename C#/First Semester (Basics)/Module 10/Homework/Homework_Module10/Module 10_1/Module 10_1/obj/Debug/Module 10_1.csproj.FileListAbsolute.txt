@@ -1,0 +1,7 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\bin\Debug\Module 10_1.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\obj\Debug\Module 10_1.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\obj\Debug\Module 10_1.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\obj\Debug\Module 10_1.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\bin\Debug\Module 10_1.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\bin\Debug\Module 10_1.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Module 10_1\Module 10_1\obj\Debug\Module 10_1.exe

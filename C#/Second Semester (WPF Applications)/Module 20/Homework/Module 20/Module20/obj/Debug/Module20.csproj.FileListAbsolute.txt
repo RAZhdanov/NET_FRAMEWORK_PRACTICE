@@ -1,0 +1,42 @@
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\bin\Debug\Module20.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\bin\Debug\Module20.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\bin\Debug\Module20.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\View\MainWindow.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\View\App.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20_MarkupCompile.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20_MarkupCompile.lref
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\View\MainWindow.baml
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.g.resources
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.Properties.Resources.resources
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.csproj.GenerateResource.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\View\App.baml
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20_Content.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\Module20.Resources.Resource1.resources
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\View\PlayListDialog.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\Module20\obj\Debug\View\PlayListDialog.baml
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\bin\Debug\Module20.exe.config
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\bin\Debug\Module20.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\bin\Debug\Module20.pdb
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.csprojAssemblyReference.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\View\MainWindow.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\View\PlayListDialog.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\View\App.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20_Content.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20_MarkupCompile.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20_MarkupCompile.lref
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\View\App.baml
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\View\MainWindow.baml
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\View\PlayListDialog.baml
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.g.resources
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.Properties.Resources.resources
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.Resources.Resource1.resources
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.csproj.GenerateResource.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.csproj.CoreCompileInputs.cache
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.exe
+E:\!Exchange\RZhdanov\!University\!Homeworks\C#\.NET Framework practice\Homework\Second Semester\Module20\New folder\Module20\obj\Debug\Module20.pdb

@@ -1,0 +1,14 @@
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.csproj.CoreCompileInputs.cache
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\bin\Debug\DataAnalyzer.exe.config
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\bin\Debug\DataAnalyzer.exe
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\bin\Debug\DataAnalyzer.pdb
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.exe
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.pdb
+D:\RKT\C#\Projects\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.csprojAssemblyReference.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\bin\Debug\DataAnalyzer.exe.config
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\bin\Debug\DataAnalyzer.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\bin\Debug\DataAnalyzer.pdb
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.csprojAssemblyReference.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.csproj.CoreCompileInputs.cache
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.exe
+E:\Exchange\RZhdanov\University\Lections\NET_FRAMEWORK_PRACTICE\C#\Second Semester (WPF Applications)\Module 22\Homework\DataAnalyzer\DataAnalyzer\DataAnalyzer\obj\Debug\DataAnalyzer.pdb
