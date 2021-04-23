@@ -1,4 +1,5 @@
 # NET_FRAMEWORK_PRACTICE
+Курс C# на факультете ВМК МГУ: http://msudotnet.ru/
 
 Мои домашние работы находятся в папках с названием Homework
 
